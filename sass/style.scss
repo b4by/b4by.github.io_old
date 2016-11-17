@@ -1,3 +1,6 @@
+---
+---
+
 $mobile-widths-only: "(max-width: 767px)";
 $tablet-widths: "(min-width: 768px)";
 $desktop-widths: "(min-width: 1200px)";
@@ -47,7 +50,8 @@ body {
 
   background: url(../image/kfc.png), url(../image/wok.png), linear-gradient(to left, #f4c4f3 , #fc67fa);
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: left, 1200px 400px;
+  background-attachment: fixed;
+  background-position: left top, 130% 400%;
 
     transition: 1s;
 }
@@ -170,4 +174,11 @@ body {
   11px 10px rgb(210,185,25), 11px 11px rgb(182,157,0),
   12px 11px rgb(209,184,24), 12px 12px rgb(181,156,0);
   margin-bottom: 30px;
+}
+
+
+
+.post-meta {
+  font-size: 14px;
+  color: #F9EBE0;
 }
