@@ -45,13 +45,13 @@ body {
 body {
   font-size: 18px;
   line-height: 20px;
-  font-family: "", Arila, sans-serif;
+  font-family: "Lato", Arila, sans-serif;
   font-weight: 400;
 
   background: url(../image/kfc.png), url(../image/wok.png), linear-gradient(to left, #f4c4f3 , #fc67fa);
   background-repeat: no-repeat, no-repeat, repeat;
-  background-attachment: fixed;
-  background-position: left top, 130% 400%;
+  background-attachment: fixed, fixed;
+  background-position: left top, right top;
 
     transition: 1s;
 }
@@ -154,11 +154,13 @@ body {
 
 .main-content {
   position: relative;
-  padding: 20px;
+
+  padding-top: 15px;
+  padding-left: 15px;
   min-height: 400px;
 
-  font-family: "Lato", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 500;
   background: linear-gradient(to top, #fce25b, #ecc92b);
   box-shadow:
   1px 0px rgb(220,195,35), 1px 1px rgb(192,167,7),
@@ -173,12 +175,31 @@ body {
   10px 9px rgb(211,186,26), 10px 10px rgb(183,158,0),
   11px 10px rgb(210,185,25), 11px 11px rgb(182,157,0),
   12px 11px rgb(209,184,24), 12px 12px rgb(181,156,0);
-  margin-bottom: 30px;
+
 }
 
 
-.post img {
-  width: 200px;
+.main-content img {
+  width: 300px;
+}
+
+
+.post-title-link a {
+  display: inline-block;
+
+
+  font-family: "Ubuntu", Arial, sans-serif;
+
+  line-height: 24px;
+
+  background-color: #F7FFF7;
+  color: black;
+  text-decoration: none;
+
+}
+
+.post-content {
+
 }
 
 .post-meta {

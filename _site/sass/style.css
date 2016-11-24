@@ -8,12 +8,12 @@ body {
 body {
   font-size: 18px;
   line-height: 20px;
-  font-family: "", Arila, sans-serif;
+  font-family: "Lato", Arila, sans-serif;
   font-weight: 400;
   background: url(../image/kfc.png), url(../image/wok.png), linear-gradient(to left, #f4c4f3, #fc67fa);
   background-repeat: no-repeat, no-repeat, repeat;
-  background-attachment: fixed;
-  background-position: left top, 130% 400%;
+  background-attachment: fixed, fixed;
+  background-position: left top, right top;
   transition: 1s; }
 
 .container {
@@ -89,19 +89,24 @@ body {
 
 .main-content {
   position: relative;
-  padding: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
   min-height: 400px;
-  font-family: "Lato", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 500;
   background: linear-gradient(to top, #fce25b, #ecc92b);
-  box-shadow: 1px 0px #dcc323, 1px 1px #c0a707, 2px 1px #dbc222, 2px 2px #bfa606, 3px 2px #dac121, 3px 3px #bea505, 4px 3px #d9c020, 4px 4px #bda404, 5px 4px #d8bf1f, 5px 5px #bca303, 6px 5px #d7be1e, 6px 6px #bba202, 7px 6px #d6bd1d, 7px 7px #baa101, 8px 7px #d5bc1c, 8px 8px #b9a000, 9px 8px #d4bb1b, 9px 9px #b89f00, 10px 9px #d3ba1a, 10px 10px #b79e00, 11px 10px #d2b919, 11px 11px #b69d00, 12px 11px #d1b818, 12px 12px #b59c00;
-  margin-bottom: 30px; }
+  box-shadow: 1px 0px #dcc323, 1px 1px #c0a707, 2px 1px #dbc222, 2px 2px #bfa606, 3px 2px #dac121, 3px 3px #bea505, 4px 3px #d9c020, 4px 4px #bda404, 5px 4px #d8bf1f, 5px 5px #bca303, 6px 5px #d7be1e, 6px 6px #bba202, 7px 6px #d6bd1d, 7px 7px #baa101, 8px 7px #d5bc1c, 8px 8px #b9a000, 9px 8px #d4bb1b, 9px 9px #b89f00, 10px 9px #d3ba1a, 10px 10px #b79e00, 11px 10px #d2b919, 11px 11px #b69d00, 12px 11px #d1b818, 12px 12px #b59c00; }
 
-.post {
-  background-color: #C3ACCE; }
+.main-content img {
+  width: 300px; }
 
-.post img {
-  width: 200px; }
+.post-title-link a {
+  display: inline-block;
+  font-family: "Ubuntu", Arial, sans-serif;
+  line-height: 24px;
+  background-color: #F7FFF7;
+  color: black;
+  text-decoration: none; }
 
 .post-meta {
   font-size: 14px;

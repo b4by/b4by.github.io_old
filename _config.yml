@@ -25,11 +25,14 @@ twitter_username: jekyllrb
 github_username:  jekyll
 future: true
 # Build settings
+paginate: 5
+
 sass:
   sass_dir: sass
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock

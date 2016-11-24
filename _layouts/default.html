@@ -10,24 +10,7 @@
     <div class="container">
 
         <section class="main-content">
-
-          {% for post in site.posts limit: 10 %}
-
-          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <header class="post-header" itemprop="name headline">
-              <h1 class="post-title">{{ post.title | escape }}</h1>
-              <!-- <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p> -->
-            </header>
-
-            <div class="post-content" itemprop="articleBody">
-              {{ post.content }}
-            </div>
-
-          </article>
-
-             {% endfor %}
-
+          {{ content }}
         </section>
 
     </div>
